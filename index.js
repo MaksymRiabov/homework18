@@ -27,7 +27,7 @@ switch (drink) {
 const num1 = Number(prompt('Enter the first number'));
 const num2 = Number(prompt('Enter the second number'));
 const num3 = Number(prompt('Enter the third number'));
-if ((num1 >= num2 && num1 >= num3) || (num1 == num2 && num2 == num3)) {
+if ((num1 >= num2 && num1 >= num3) || (num1 === num2 && num2 === num3)) {
   alert(`The largest number is ${num1}`);
 } else if (num2 >= num1 && num2 >= num3) {
   alert(`The largest number is ${num2}`);
